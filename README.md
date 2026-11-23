@@ -34,6 +34,8 @@
 - [👤 作者 / 配套手册](#作者--配套手册)
 - [📄 License / 许可](#license--许可)
 
+<a id="solo-ai-products--一人公司可做的-ai-业务场景" name="solo-ai-products--一人公司可做的-ai-业务场景"></a>
+
 ## 💡 Solo AI products / 一人公司可做的 AI 业务场景
 
 能支撑一种可售卖产品的框架、引擎和官方工具，而不是随机 AI 应用合集。常见路径：把模型做成订阅制 SaaS、用生成能力做网站产品，或用轻量引擎做能在网页 / itch.io 分发的 AI 游戏。
@@ -52,6 +54,8 @@
 - [Suno](https://suno.com/) — 文本生成完整歌曲的平台，适合做 AI 音乐类网站，或给游戏和短视频产品配原声。
 - [Runway](https://runway.com/) — AI 视频生成与编辑工具，适合做短视频类 AI 网站，或给营销和游戏预告提供出片能力。
 
+<a id="llms--apis--大模型与-api" name="llms--apis--大模型与-api"></a>
+
 ## 🧠 LLMs & APIs / 大模型与 API
 
 先用官方 API 把产品跑通，再考虑自建推理。选型时不要只看单价，而要看一次合格结果的成本和能否切换供应商。只收录官方平台，不收录非官方中转。
@@ -66,6 +70,8 @@
 - [Replicate](https://replicate.com/) — 用 API 运行开源和社区模型，适合给生图、语音和垂直模型做按次调用，不必自己管 GPU。
 - [Modal](https://modal.com/) — 面向 Python 的无服务器 CPU / GPU 平台，适合在 API 不够用时，把推理或微调任务按需跑起来。
 - [RunPod](https://www.runpod.io/) — GPU 云与无服务器推理，适合已经确认自托管更划算、需要按卡型和时长租算力的阶段。
+
+<a id="mcp" name="mcp"></a>
 
 ## 🔌 MCP
 
@@ -101,6 +107,8 @@
 - [Sentry Toolkit (MCP)](https://github.com/getsentry/toolkit) — Sentry 官方工具集（含 MCP），适合上线后让 Agent 直接查看报错和性能问题。
 - [Stripe MCP](https://docs.stripe.com/mcp) — Stripe 官方 MCP 文档与托管服务，让 Agent 在授权范围内查询和操作收款相关 API，适合调试结账、订阅和退款，而不是把密钥写进提示词。
 
+<a id="hosting--sites--建站与托管" name="hosting--sites--建站与托管"></a>
+
 ## ☁️ Hosting & sites / 建站与托管
 
 把产品变成可访问的网址：域名、静态站、边缘函数、云主机、数据库和交易邮件。
@@ -122,6 +130,8 @@
 - [ImprovMX](https://improvmx.com/) — 把 `you@yourdomain` 免费转发到个人邮箱，适合先有专业收件地址，再上交易邮件。
 - [Resend](https://resend.com/) — 面向开发者的交易邮件 API，适合验证信、收据、用量告警和通知。
 
+<a id="global-payments--跨境收款" name="global-payments--跨境收款"></a>
+
 ## 💳 Global payments / 跨境收款
 
 只整理各产品公开介绍的能力与常见适用场景，不涉及具体商户开通条件、账户配置或费率谈判。能否开通以官网当时公布的国家 / 主体要求为准。卖 AI SaaS 时还要单独核算模型成本、退款和拒付，不要只比较支付手续费。
@@ -139,6 +149,8 @@
 - [PayPal](https://www.paypal.com/business) — 买家认知度高的国际收款方式，常作为补充支付选项，而不是唯一的账户体系。
 - [Wise Business](https://wise.com/business) — 跨境转账与多币种商业账户，适合把已经收到的货款转到自己常用的银行账户。
 - [Payoneer](https://www.payoneer.com/) — 面向跨境卖家和自由职业者的收款与付款账户，适合需要接收多平台打款的场景。
+
+<a id="company--compliance--公司与合规" name="company--compliance--公司与合规"></a>
 
 ## 🏢 Company & compliance / 公司与合规
 
@@ -158,6 +170,8 @@
 - [European Commission: Data protection](https://commission.europa.eu/law/law-topic/data-protection_en) — 欧盟委员会的数据保护主题页，处理欧盟用户数据或模型输入前先看官方框架。
 - [TermsFeed](https://www.termsfeed.com/) — 生成隐私政策与服务条款等网站文本的工具，适合先有一份可公开的页面草稿；生成结果仍需结合自身业务和法律意见修改。
 
+<a id="launch--directories--发布与目录" name="launch--directories--发布与目录"></a>
+
 ## 🚀 Launch & directories / 发布与目录
 
 把可试用的产品放到目标用户会浏览的目录和社区，按各平台现行规则提交，不要买票或组织刷赞。
@@ -171,6 +185,8 @@
 - [PoweredByAI](https://poweredbyai.app/) — 面向 AI 产品的展示目录，适合把刚上线的 AI SaaS 或网站提交到可被浏览的列表里（提交规则以官网为准）。
 - [W2Solo](https://w2solo.com/) — 中文独立开发者社区，适合用中文讨论一人公司产品、收早期反馈，再把正式发布放到英文目录。
 - [AlternativeTo](https://alternativeto.net/) — 软件替代品目录，适合已经有明确竞品、希望被比较搜索找到的工具。
+
+<a id="content--acquisition--内容与获客" name="content--acquisition--内容与获客"></a>
 
 ## ✍️ Content & acquisition / 内容与获客
 
@@ -192,6 +208,8 @@
 - [r/SideProject](https://www.reddit.com/r/SideProject/) — 分享副作用和独立项目的版块，发帖时注意版规和宣传比例。
 - [X Rules and Policies](https://help.x.com/en/rules-and-policies) — X（Twitter）官方规则与政策入口，用它做内容获客前先了解平台规则。
 
+<a id="open-source-templates--examples--开源模板与案例" name="open-source-templates--examples--开源模板与案例"></a>
+
 ## 📦 Open-source templates & examples / 开源模板与案例
 
 可直接 fork 的官方或开源起步模板，先跑通登录、收款和部署，再换成自己的业务。
@@ -203,6 +221,8 @@
 - [React Email](https://react.email/) — 用 React 编写交易邮件模板的开源方案，常与 Resend 等发送服务一起用。
 - [WXT](https://wxt.dev/) — 浏览器扩展开发框架，适合一个人把 AI 能力做成 Chrome / Edge 插件并上架到海外商店。
 - [Supabase Getting Started](https://supabase.com/docs/guides/getting-started) — 官方入门与示例入口，适合给出海产品加上认证、数据库和存储。
+
+<a id="ai-出海项目--showcase" name="ai-出海项目--showcase"></a>
 
 ## 🌏 AI 出海项目 / Showcase
 
@@ -269,11 +289,15 @@
 
 - [Gridku](https://www.gridku.com/) — Worldku 团队：在浏览器里和你的 AI 下国际象棋、中国象棋或五子棋，对面的每一步由它来走。
 
+<a id="作者--配套手册" name="作者--配套手册"></a>
+
 ## 👤 作者 / 配套手册
 
 这份清单由 [橙哥出海](https://x.com/OPCchuhai) 整理。网站：[opcchuhai.com](https://opcchuhai.com/)，一个人把产品卖到海外时会用到的方法、工具和案例都在这里。
 
 我把这些坑写成了手册和工具包：[《出海赚美金》书+工具包](https://opcchuhai.com/books/zhuan-meijin/)。
+
+<a id="license--许可" name="license--许可"></a>
 
 ## 📄 License / 许可
 
