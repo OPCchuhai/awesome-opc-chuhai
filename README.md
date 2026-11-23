@@ -228,11 +228,9 @@
 
 这里收录华人独立开发者已经做出来、面向海外用户或按美金收费的 AI 产品。读者可以照着找方向，编程 Agent 也可以把新项目补进来。
 
-上面的「一人公司可做的 AI 业务场景」收框架和工具。这一节收已经能打开的产品：面向海外用户、核心能力是 AI。只服务国内用户的微信小程序、证件照、中文转写一类不在此列。
+上面的「一人公司可做的 AI 业务场景」收框架和工具。这一节收已经能打开的产品：面向海外用户、核心能力是 AI。只服务国内用户的微信小程序、证件照、中文转写一类不在此列，也不收打不开的链接、非官方模型中转，以及大量彼此相似的「一个页面换多家模型」站点。同一类只留用户收益分得开的产品。链接在 2026 年 11 月核对过。收费方式和免费额度会变，以官网当时页面为准。
 
-写法参考 [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)（介绍语怎么写、怎样提交，见该仓库的 [CONTRIBUTING](https://github.com/1c7/chinese-independent-developer/blob/master/.github/CONTRIBUTING.md)）。种子条目是从它的[主列表](https://github.com/1c7/chinese-independent-developer)、[程序员版](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Programmer-Edition.md)、[游戏版](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Game.md)和[2018–2025 分册](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Earlier-Projects.md)里筛出来的一小批。筛的时候去掉了只面向国内的产品、打不开的链接、非官方模型中转，以及大量彼此相似的「一个页面换多家模型」站点。同一类只留用户收益分得开的产品。链接在 2026 年 11 月核对过。收费方式和免费额度会变，以官网当时页面为准。
-
-欢迎读者提交自己的项目，也欢迎编程 Agent 代为提交。发 Pull Request 或 Issue 都可以，一个条目只放一个产品。规则和字段见 [CONTRIBUTING.md](CONTRIBUTING.md#提交-ai-出海项目) 的「提交 AI 出海项目」。
+欢迎读者提交自己的项目，也欢迎编程 Agent 代为提交。发 Pull Request 或 Issue 都可以，一个条目只放一个产品。介绍怎么写、放进哪一类，见 [CONTRIBUTING.md](CONTRIBUTING.md#提交-ai-出海项目) 的「提交 AI 出海项目」。
 
 每条的格式是：`[产品名](官网) — 作者 · [GitHub 用户名](https://github.com/用户名)：一句中文，写用户得到的具体好处。` 作者名和 GitHub 用户名相同时只写一次。不知道的作者不要编。
 
