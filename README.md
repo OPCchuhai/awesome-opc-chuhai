@@ -1,8 +1,8 @@
-# Awesome OPC Chuhai
+# 一人公司 AI 出海清单 · Awesome OPC Chuhai
 
 一人公司要把 AI 产品卖到海外，从大模型与 MCP、到建站收款与获客，先看这里。
 
-整理：[橙哥出海](https://x.com/OPCchuhai)
+整理：[橙哥出海](https://x.com/OPCchuhai) · 网站：[opcchuhai.com](https://opcchuhai.com/)
 
 这是一份写给华人**一人公司 / 独立开发者**的出海清单。重点不是罗列所有 AI 套壳，而是一个人真正能做出来、卖出去的方向：AI SaaS、AI 网站、AI 游戏，以及搭建这些产品会用到的大模型 API、MCP、建站托管、跨境收款与获客渠道。每条都指向官方页面，并附一句适用场景。优先收录免费产品，或有公开文档可查的免费档。
 
@@ -205,7 +205,9 @@
 
 ## 👤 作者 / 配套手册
 
-这份清单由 [橙哥出海](https://x.com/OPCchuhai) 整理。我把这些坑写成了手册和工具包：[《出海赚美金》书+工具包](https://opcchuhai.com/books/zhuan-meijin/)。
+这份清单由 [橙哥出海](https://x.com/OPCchuhai) 整理。网站：[opcchuhai.com](https://opcchuhai.com/)，一个人把产品卖到海外时会用到的方法、工具和案例都在这里。
+
+我把这些坑写成了手册和工具包：[《出海赚美金》书+工具包](https://opcchuhai.com/books/zhuan-meijin/)。
 
 ## 📄 License / 许可
 
