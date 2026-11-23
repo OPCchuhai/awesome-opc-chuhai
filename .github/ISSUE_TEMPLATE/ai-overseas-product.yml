@@ -1,0 +1,65 @@
+name: 提交 AI 出海项目
+description: 推荐一个面向海外用户、在收美金的 AI 产品
+title: "AI出海项目: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先读 [CONTRIBUTING.md](https://github.com/OPCchuhai/awesome-opc-chuhai/blob/main/CONTRIBUTING.md#提交-ai-出海项目) 里的「提交 AI 出海项目」。一个 Issue 只放一个产品。读者和编程 Agent 都可以填。
+
+        链接用官网或应用商店，不要用带 `utm_*`、`ref`、`affiliate` 的推广链接。不知道的作者不要编。
+  - type: input
+    id: name
+    attributes:
+      label: 产品名
+      placeholder: blubiu
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 官网
+      description: 产品网站或应用商店链接。不要用 GitHub 仓库代替，除非仓库本身就是产品。
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: textarea
+    id: intro
+    attributes:
+      label: 一句话介绍
+      description: 简体中文。写用户得到的具体好处，不要只写「AI 视频生成工具」。
+      placeholder: 角色先存成资产，后面每条动画都沿用同一班人。
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 图像
+        - 视频
+        - 音乐
+        - 三维
+        - 设计
+        - 写作与内容
+        - 开发者向
+        - 效率
+        - 游戏
+        - 其他（在下面的说明里写建议的分类名）
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者与 GitHub
+      description: 知道再填，例如「Miracle · https://github.com/zhoulianbo」。不要猜测。
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么算 AI 出海收美金
+      description: 编程 Agent 请务必填写。说明核心能力为什么是 AI、目标用户是谁（海外 / 全球），以及怎么收费或凭什么判断在收美金。
+      placeholder: 英文产品站，订阅按美元计价，用户用一句话生成可下载的成品。
+    validations:
+      required: true
