@@ -1,5 +1,7 @@
 # 一人公司 AI 出海清单 · Awesome OPC Chuhai
 
+![一人公司 AI 出海路径示意](assets/cover.webp)
+
 一人公司要把 AI 产品卖到海外，从大模型与 MCP、到建站收款与获客，先看这里。
 
 整理：[橙哥出海](https://x.com/OPCchuhai) · 网站：[opcchuhai.com](https://opcchuhai.com/)
