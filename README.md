@@ -17,7 +17,7 @@
 3. ☁️ **上线并收款** → [Hosting](#hosting--sites--建站与托管) · [💳 Payments](#global-payments--跨境收款) · [🏢 Company](#company--compliance--公司与合规)
 4. 🚀 **发布与获客** → [Launch](#launch--directories--发布与目录) · [✍️ Content](#content--acquisition--内容与获客)
 
-需要起步代码时，再看 [📦 开源模板](#open-source-templates--examples--开源模板与案例)。欢迎通过 Pull Request 补充或修正条目，提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+需要起步代码时，再看 [📦 开源模板](#open-source-templates--examples--开源模板与案例)。想先看看已经在向海外用户交付的 AI 产品，读 [🌏 AI 出海项目](#ai-出海项目--showcase)。欢迎通过 Pull Request 补充或修正条目，提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 📚 Contents / 目录
 
@@ -30,6 +30,7 @@
 - [🚀 Launch & directories / 发布与目录](#launch--directories--发布与目录)
 - [✍️ Content & acquisition / 内容与获客](#content--acquisition--内容与获客)
 - [📦 Open-source templates & examples / 开源模板与案例](#open-source-templates--examples--开源模板与案例)
+- [🌏 AI 出海项目 / Showcase](#ai-出海项目--showcase)
 - [👤 作者 / 配套手册](#作者--配套手册)
 - [📄 License / 许可](#license--许可)
 
@@ -202,6 +203,71 @@
 - [React Email](https://react.email/) — 用 React 编写交易邮件模板的开源方案，常与 Resend 等发送服务一起用。
 - [WXT](https://wxt.dev/) — 浏览器扩展开发框架，适合一个人把 AI 能力做成 Chrome / Edge 插件并上架到海外商店。
 - [Supabase Getting Started](https://supabase.com/docs/guides/getting-started) — 官方入门与示例入口，适合给出海产品加上认证、数据库和存储。
+
+## 🌏 AI 出海项目 / Showcase
+
+这里收录华人独立开发者已经做出来、面向海外用户或按美金收费的 AI 产品。读者可以照着找方向，编程 Agent 也可以把新项目补进来。
+
+上面的「一人公司可做的 AI 业务场景」收框架和工具。这一节收已经能打开的产品：面向海外用户、核心能力是 AI。只服务国内用户的微信小程序、证件照、中文转写一类不在此列。
+
+写法参考 [中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)（介绍语怎么写、怎样提交，见该仓库的 [CONTRIBUTING](https://github.com/1c7/chinese-independent-developer/blob/master/.github/CONTRIBUTING.md)）。种子条目是从它的[主列表](https://github.com/1c7/chinese-independent-developer)、[程序员版](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Programmer-Edition.md)、[游戏版](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Game.md)和[2018–2025 分册](https://github.com/1c7/chinese-independent-developer/blob/master/.github/pages/README-Earlier-Projects.md)里筛出来的一小批。筛的时候去掉了只面向国内的产品、打不开的链接、非官方模型中转，以及大量彼此相似的「一个页面换多家模型」站点。同一类只留用户收益分得开的产品。链接在 2026 年 11 月核对过。收费方式和免费额度会变，以官网当时页面为准。
+
+欢迎读者提交自己的项目，也欢迎编程 Agent 代为提交。发 Pull Request 或 Issue 都可以，一个条目只放一个产品。规则和字段见 [CONTRIBUTING.md](CONTRIBUTING.md#提交-ai-出海项目) 的「提交 AI 出海项目」。
+
+每条的格式是：`[产品名](官网) — 作者 · [GitHub 用户名](https://github.com/用户名)：一句中文，写用户得到的具体好处。` 作者名和 GitHub 用户名相同时只写一次。不知道的作者不要编。
+
+### 🖼️ 图像 / Image
+
+- [Reletter](https://aiedittextinimage.com/) — Berry-hcy：只改截图、菜单或商品图里的某一行字，其余画面保持不动；需要时再重绘那一块。
+- [unblurry](https://unblurry.tools) — edenSu · [edenSu-git](https://github.com/edenSu-git)：把手抖或失焦的照片丢进去，把糊掉的细节补回来，免注册可以先试。
+- [TattooTryOn](https://tattootryon.app/) — [Yuzu-Peel](https://github.com/Yuzu-Peel)：把纹身图样放在自己手臂或小腿的照片上，先看它贴合肤色和光线之后的样子。
+- [My Face Analyzer](https://myfaceanalyzer.com) — deepblue1991：一张正脸自拍就能在照片上看到脸型、对称和黄金比例，计算在浏览器里完成；详细报告里还有按这张脸生成的发型试戴。
+- [Spaceora](https://spaceora.app/) — [Zin](https://github.com/zina26)：拍一张房间或院子的照片，预览换成真实家具之后的布置，院子则按当地气候挑选植物。
+
+### 🎬 视频 / Video
+
+- [blubiu](https://blubiu.ai) — [stimQQ](https://github.com/stimQQ)：角色和场景先存成资产，后面每条动画都沿用同一班人，不用每镜重新描述长相。
+- [Textless](https://textless.video/) — Kuber · [iam-tin](https://github.com/iam-tin)：自动找出或框选画面里的字幕和水印，擦掉后把后面的背景补上，可以先不登录试一小段。
+- [ShotTide](https://shottide.com/) — Jianyu Chen · [CJianYu](https://github.com/CJianYu)：写好脚本和分镜，补上旁白，导出一支短片。
+- [Tapemoon](https://tapemoon.com) — [suio03](https://github.com/suio03)：上传一整首歌，按人声生成一支对得上歌词的音乐视频。
+- [Captions Generator](https://captionsgenerator.app/) — [iaminyu](https://github.com/iaminyu)：丢进一条视频，得到跟每个词对齐的字幕，改字、换样式或译成别的语言后，导出成片或 SRT。
+
+### 🎵 音乐 / Music
+
+- [MemoTune](https://memotune.com) — [AlvyVV](https://github.com/AlvyVV)：写下一句想法、一段歌词或一个故事，生成一首带人声或纯配乐的完整歌曲。
+
+### 🧊 三维 / 3D
+
+- [Photo to 3D Model](https://phototo3dmodel.org/) — Jianyu Chen · [CJianYu](https://github.com/CJianYu)：拍一件物品的一张照片，在浏览器里转着看，并下载可以继续编辑的 GLB 模型。
+
+### 🎨 设计 / Design
+
+- [LogoAnimation](https://logoanimation.net/) — Miracle · [zhoulianbo](https://github.com/zhoulianbo)：上传现有标志，选一种出场或用文字描述动作，下载一段能当片头的视频。
+- [LayerGrab](https://layergrab.com) — [stimQQ](https://github.com/stimQQ)：把一张成图拆成带名字的图层，补上被挡住的背景，导出 PNG 或 PSD。
+- [Logent AI](https://logent.ai/) — 疯狂的小波（武汉）：写下产品名称和它做什么，生成可以直接当作品牌标志的方案。
+- [Image Translate AI](https://imagetranslate.ai) — Corey Chiu（深圳） · [iamcorey](https://github.com/iamcorey)：把商品图、漫画或菜单上的文字换成另一种语言，原来的版式留在原处。
+
+### 📝 写作与内容 / Writing
+
+- [VibeCV](https://vibecv.com) — Rory · [Coiggahou2002](https://github.com/Coiggahou2002)：把经历聊出来，整理成可以投出去的一页简历，第一份免费。
+- [UUScribe](https://scribe.uustudio.cc/) — UU Studio · [6a209](https://github.com/6a209)：上传录音或贴一条 YouTube 链接，得到可以校对的文字稿，区分说话人，再导出文档或字幕。
+
+### 🧰 开发者向 / Developer
+
+- [AI Game Makers](https://aigamemakers.com/) — cian · [a3011336204-cmyk](https://github.com/a3011336204-cmyk)：用一句中文或英文描述一款 Roblox 游戏，得到带地图、脚本和界面、能在 Roblox Studio 里打开的成品。
+- [AppIconKitchen](https://www.appiconkitchen.com/) — Ricky Lee（深圳）：用一段话描述应用，导出 iOS、Android 和网页各自要的整套图标。
+
+### ⚡ 效率 / Productivity
+
+- [MomentSift](https://momentsift.com/) — AnshengHu · [zgaobai](https://github.com/zgaobai)：几千张照片里，模糊和闭眼的会先被标出来，原片留在自己的设备上。
+- [Refto](https://refto.one) — [hehehai](https://github.com/hehehai)：把图片、视频和 PDF 收进 Mac 上的一个库，再用画面里的字或录音里的话找回来，识别在本机完成。
+- [BayesChat](https://bayeschat.xyz) — [fan3cn](https://github.com/fan3cn)：在 iPhone 上用自己的模型密钥聊天，对话记忆留在手机里，需要时再接上 MCP 工具。
+- [PetWaits](https://petwaits.com/) — ZHANG LINGQING：用一张自家猫狗的照片，做成会在桌面上唱歌、陪你工作的桌宠。
+- [DisconfirmAI](https://disconfirmai.com/) — [tumingke0](https://github.com/tumingke0)：做一个判断之前，先整理可能推翻它的公开材料，并附上原文链接。
+
+### 🎲 游戏 / Games
+
+- [Gridku](https://www.gridku.com/) — Worldku 团队：在浏览器里和你的 AI 下国际象棋、中国象棋或五子棋，对面的每一步由它来走。
 
 ## 👤 作者 / 配套手册
 
