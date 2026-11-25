@@ -266,6 +266,7 @@
 - [LayerGrab](https://layergrab.com) — [stimQQ](https://github.com/stimQQ)：把一张成图拆成带名字的图层，补上被挡住的背景，导出 PNG 或 PSD。
 - [Logent AI](https://logent.ai/) — 疯狂的小波（武汉）：写下产品名称和它做什么，生成可以直接当作品牌标志的方案。
 - [Image Translate AI](https://imagetranslate.ai) — Corey Chiu（深圳） · [iamcorey](https://github.com/iamcorey)：把商品图、漫画或菜单上的文字换成另一种语言，原来的版式留在原处。
+- [Kite](https://kite.new) — Loukman Nacik · [itsloukman](https://github.com/itsloukman)：让 Claude、ChatGPT、Cursor 或 Codex 通过托管 MCP 服务器直接在设计文件里画出可编辑的图层，团队同一文件实时修改，还能复制到 Figma 或导出 React 代码。
 
 ### 📝 写作与内容 / Writing
 
